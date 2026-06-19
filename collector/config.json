@@ -5,25 +5,23 @@
   "config": {
     "fields": [
       {
-        "field_id": "demo_text",
-        "priority": 1,
-        "type": "text_input",
+        "field_id": "demo",
+        "type": "camera_photo",
         "title": "Пример текста",
-        "instructions": "Заполните поле",
-        "validation": {}
+        "instructions": "Заполните поле"
       }
     ],
     "flow": {
       "steps": [
         {
           "id": "form1",
-          "screen": "form",
+          "screen": "scroll_form",
+          "form_title": "demo",
           "field_ids": [
-            "demo_text"
+            "demo"
           ]
         }
       ]
-    },
-    "ui": {}
+    }
   }
 }

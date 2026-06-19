@@ -20,6 +20,10 @@
           "field_ids": [
             "demo"
           ]
+        },
+        {
+          "id": "step_ksfb3d",
+          "screen": "review"
         }
       ]
     }
